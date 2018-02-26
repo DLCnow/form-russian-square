@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		*{margin: 0;padding: 0;}
+		body{width: 100%;}
+		table{margin: 50px auto;}
+		td{width: 16px;height: 16px;border-collapse: collapse;border: 1px solid black;}
+		.L{background-image: -webkit-linear-gradient(top left , #da7a75 , #a93434);}
+		.I{background-image: -webkit-linear-gradient(top left , #DCE775 , #388E3C);}
+		.O{background-image: -webkit-linear-gradient(top left , #feff00 , #8a9115);}
+		.J{background-image: -webkit-linear-gradient(top left , #00BCD4 , #00838F);}
+		.T{background-image: -webkit-linear-gradient(top left , #cdd4f5 , #207da7);}
+		.S{background-image: -webkit-linear-gradient(top left , #A1887F , #5D4037);}
+		.Z{background-image: -webkit-linear-gradient(top left , #efadfb , #9c43b4);}
+		.grey{background-color: grey}
+	</style>
+</head>
+<body>
+	<audio src="audio/bgm.mp3" autoplay loop></audio>
+	<audio src="audio/down.wav" id="down"></audio>
+	<audio src="audio/left_right.wav" id="left_right"></audio>
+	<audio src="audio/up.wav" id="up"></audio>
+	<audio src="audio/goDown.wav" id="goDown"></audio>
+	<audio src="audio/remove.wav" id="remove"></audio>
+	<div id="app">
+		<h3 id="info"></h3>
+	</div>
+	<script type="text/javascript" src="js/block_json.js"></script>
+	<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+	<script type="text/javascript" src="js/Game.js"></script>
+	<script type="text/javascript" src="js/block.js"></script>
+	<script type="text/javascript" src="js/Map.js"></script>
+	<script type="text/javascript">
+		var game = new Game();
+
+		document.getElementById("bgm").volume = 0.1;
+	</script>
+</body>
+</html>
