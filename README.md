@@ -9,3 +9,5 @@ space 直达底部
 ## 截图（ScreenCut）
 ![ScreenCut1](./screencut/ScreenCut.png)
 ![ScreenCut2](./screencut/ScreenCut2.png)
+## 预览（preview）
+https://dlcnow.github.io/form-russian-square/
