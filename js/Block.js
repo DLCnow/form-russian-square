@@ -1,7 +1,7 @@
 function Block() {
     //选择json里面那个类型的第几个数组
     this.allType = ["I", "L" ,"S" ,"Z" , "O","T","J"][~~(Math.random() * 7)];
-    // console.log(this.allType);
+    // console.log(this.allType);看看里面是啥
     //找到不同数组的长度
     this.allDirectionNumber = block_json[this.allType].length;
     //随机出一个方向的数组
